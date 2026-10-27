@@ -1,0 +1,18 @@
+# Archivos temporales y de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Entornos y secretos
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Artefactos de compilación o caché
+__pycache__/
+node_modules/
+*.qlf
